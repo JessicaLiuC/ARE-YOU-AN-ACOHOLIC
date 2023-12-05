@@ -1,0 +1,111 @@
+{
+    "Cocktail": [
+        {"name": "Dark and Stormy",
+        "image": "alcohol/‎alcohol.‎005.png",
+        "Strength": "12%",
+        "Ingredients": [
+            {"Ingredient1": "Dark Rum",
+            "Ingredient2": "Ginger Beer",
+            "Ingredient3":"",
+            "Ingredient4":"",
+            "Ingredient5":""} 
+        ],
+        "Equipments": [
+            {"Equipment1": "Collins Glass",
+            "Equipment2": "",
+            "Equipment3": ""}
+        ],
+        "Origin": "Bermuda, around 1920",
+        "Source": "IBA cocktails"},
+    
+        {"name": "Daiquiri",
+        "image": "alcohol/‎alcohol.‎003.png",
+        "Strength": "18%",
+        "Ingredients": [
+            {"Ingredient1": "White Rum",
+            "Ingredient2": "Lime Juice",
+            "Ingredient3": "Simple Syrup",
+            "Ingredient4":"",
+            "Ingredient5":""}
+        ],
+        "Equipments": [
+            {"Equipment1": "Shaker",
+            "Equipment2": "Strainer",
+            "Equipment3": "Cocktail Glass"}
+        ],
+        "Origin": "Jennings Cox, Cuba, early 1900",
+        "Source": "IBA cocktails"},
+        
+        {"name": "Piña Colada",
+        "image": "alcohol/‎alcohol.‎001.png",
+        "Strength": "6%",
+        "Ingredients": [
+            {"Ingredient1": "White Rum",
+            "Ingredient2": "Pineapple Juice",
+            "Ingredient3": "Coconut Cream",
+            "Ingredient4":"",
+            "Ingredient5":""}
+        ],
+        "Equipments": [
+            {"Equipment1": "Blender",
+            "Equipment2": "Hurricane Glass",
+            "Equipment3": ""}
+        ],
+        "Origin": "Puerto Rico, around 1950",
+        "Source": "IBA cocktails"},
+        
+        {"name": "Dry Martini",
+        "image": "alcohol/‎alcohol.‎004.png",
+        "Strength": "30%",
+        "Ingredients": [
+            {"Ingredient1": "Gin",
+            "Ingredient2": "Dry Vermouth",
+            "Ingredient3": "",
+            "Ingredient4":"",
+            "Ingredient5":""}
+        ],
+        "Equipments": [
+            {"Equipment1": "Mixing Glass",
+            "Equipment2": "Barspoon",
+            "Equipment3": "Cocktail Glass"}
+        ],
+        "Origin": "United States, 1910",
+        "Source": "IBA cocktails"},
+
+        {"name": "Margarita",
+        "image": "alcohol/‎alcohol.‎006.png",
+        "Strength": "30%",
+        "Ingredients": [
+            {"Ingredient1": "Tequila",
+            "Ingredient2": "Cointreau",
+            "Ingredient3": "Lime Juice",
+            "Ingredient4":"",
+            "Ingredient5":""}
+        ],
+        "Equipments": [
+            {"Equipment1": "Shaker",
+            "Equipment2": "Strainer",
+            "Equipment3": "Margarita Glass"}
+        ],
+        "Origin": "Carlos 'Danny' Herrera, Mexico, 1938",
+        "Source": "IBA cocktails"},
+        
+        {"name": "Mojito",
+        "image": "alcohol/‎alcohol.‎002.png",
+        "Strength": "9%",
+        "Ingredients": [
+            {"Ingredient1": "White Rum",
+            "Ingredient2": "Lime Juice",
+            "Ingredient3": "Sugar",
+            "Ingredient4": "Club Soda",
+            "Ingredient5": "Mint Leaves"}
+        ],
+        "Equipments": [
+            {"Equipment1": "Muddler",
+            "Equipment2": "Collins Glass",
+            "Equipment3": ""}
+        ],
+        "Origin": "Cuba",
+        "Source": "IBA cocktails"}
+    ]
+}

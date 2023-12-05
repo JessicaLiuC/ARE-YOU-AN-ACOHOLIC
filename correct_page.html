@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <script type="importmap"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Laila&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <div id="beerAnimation">
+        <script type="module" src="correct_page.js"></script>
+    </div>
+    <div class="title_containment_correct">
+        <h1 class="title_correct">YOU ARE A CERTIFIED ALCOHOLIC!!</h1>
+    </div>
+    <button class="final-left-button-correct" onclick="self.close();">Bye bye</button>  
+    <button class="final-right-button-correct" onclick="window.location.href = 'play_page.html'">Play again</button> 
+
+    <audio id="music" loop autoplay>
+        <source src="static/win.mp3" type="audio/mpeg">
+        <!-- credited:
+            Feel Good by MusicbyAden | https://soundcloud.com/musicbyaden
+            Music promoted by https://www.chosic.com/free-music/all/
+            Creative Commons CC BY-SA 3.0
+            https://creativecommons.org/licenses/by-sa/3.0/
+        -->
+    </audio>
+    
+    <div class="sound">
+        <button id="stopBtn">🔈</button>
+    </div>  
+
+</body>
+</html>

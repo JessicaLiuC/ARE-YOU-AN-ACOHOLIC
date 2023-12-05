@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "GLTFLoader": "https://unpkg.com/three@0.138.0/examples/jsm/loaders/GLTFLoader.js",
+                "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js"
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Laila&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body> 
+
+    <canvas class="webg2"></canvas>
+    <script type="module" src="wrong_page.js"></script>
+
+    <div class="title_containment_lose">
+        <h1 class="lose_title">YOU LOSE</h1>
+    </div>
+    <div class="diz_container">
+        <image src = "static/output-onlinegiftools.gif" class="dizzy" id="delay">
+    </div>
+    <button class="final-left-button" onclick="self.close();">Bye bye</button>  
+    <button class="final-right-button" onclick="window.location.href = 'play_page.html'">Play again</button> 
+
+    <audio id="music" loop autoplay>
+        <source src="static/lose.mp3" type="audio/mpeg">
+        <!-- credited:
+            Spook4 by PeriTune | http://peritune.com
+            Attribution 4.0 International (CC BY 4.0)
+            https://creativecommons.org/licenses/by/4.0/
+            Music promoted by https://www.chosic.com/free-music/all/ 
+        -->
+    </audio>
+    
+    <div class="sound">
+        <button id="stopBtn">🔈</button>
+    </div>  
+
+</body>
+</html>
