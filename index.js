@@ -70,7 +70,7 @@ renderer.render(scene, camera)
 
 function animate(time) {
     requestAnimationFrame(animate)
-    var delta = (time - previousTime)/1000;
+    var delta = (time - previousTime)/500;
     mixer.update(delta);
     previousTime = time;
     renderer.render(scene, camera);
