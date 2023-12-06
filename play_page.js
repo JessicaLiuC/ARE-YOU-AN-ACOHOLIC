@@ -67,19 +67,19 @@ function assignCorrectRandomly() {
     leftButton.textContent += ` ${correctText}`;
     rightButton.textContent += ` ${wrongText}`;
     leftButton.onclick = () => {
-        window.location.href = "/correct_page.html"; 
+        window.location.href = "correct_page.html"; 
     }
     rightButton.onclick = () => {
-        window.location.href = "/wrong_page.html"; 
+        window.location.href = "wrong_page.html"; 
     }
   } else {
     rightButton.textContent += ` ${correctText}`; 
     leftButton.textContent += `${wrongText}`;
     rightButton.onclick = () => {
-        window.location.href = "/correct_page.html"; 
+        window.location.href = "correct_page.html"; 
     }
     leftButton.onclick = () => {
-        window.location.href = "/wrong_page.html"; 
+        window.location.href = "wrong_page.html"; 
     }
   }
 
