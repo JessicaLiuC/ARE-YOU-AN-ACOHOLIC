@@ -237,10 +237,11 @@ header h1 {
 
 .card {
     position: relative;
-    margin: 3% auto; 
-    transition: 0.3s;
-    width: 55%;
-    height: auto;
+    margin: 5% auto;
+    transition: all 0.3s ease 0s;
+    max-width: 70%;
+    min-height: 100vh;
+    place-items: center;
 }
   
 .container {
@@ -287,11 +288,11 @@ animation: bounce 1s ease infinite .7s;
 
 
 .card_container {
-    position: relative;
     display: flex;
-    top: 40px;
-    width: 115%;
-    height: 35%;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card_image{
@@ -302,7 +303,6 @@ animation: bounce 1s ease infinite .7s;
     left: 48%; */
     width: 200%;
     height: 600px;
-    transform: translate(-20%, -15%);
 }
 
 
@@ -321,7 +321,6 @@ animation: bounce 1s ease infinite .7s;
     flex: 1;
     width: 100%;
     height: 150%;
-    transform: translate(-10%, 0%);
   }
 
 #customers tr {
@@ -344,12 +343,21 @@ animation: bounce 1s ease infinite .7s;
 
 #customers tr:nth-child(even){background-color: #ffffff;}
 
+.button_position {
+    width: fit-content;
+    height: fit-content;
+    padding: 1.5rem;
+    margin: 1rem;
+    flex: 1;
+    position:relative;
+    left: 25%;
+}
 
 .left-button{
-    position: absolute;
+    /* position: absolute;
     top: 80%;
-    left: 30%;
-    width: 250;
+    left: 30%; */
+    width: max-content;
     height: 95;
     color: #823D32;
     background-color: #E3CFB4;
@@ -359,16 +367,18 @@ animation: bounce 1s ease infinite .7s;
     border: 0;
     border-radius: 30px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding:1rem;
+    margin:1rem;
 }
 .left-button:hover {
     background-color: #c7a77b;
 }
 
 .right-button{
-    position: absolute;
+    /* position: absolute;
     top: 80%;
-    left: 55%;
-    width: 250;
+    left: 55%; */
+    width: max-content;
     height: 95;
     color: #823D32;
     background-color: #E3CFB4;
@@ -378,6 +388,8 @@ animation: bounce 1s ease infinite .7s;
     border: 0;
     border-radius: 30px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding:1rem;
+    margin:1rem;
 }
 .right-button:hover {
     background-color: #c7a77b;
@@ -524,7 +536,6 @@ animation: bounce 1s ease infinite .7s;
         position: relative;
         width: 300%;
         height: 100%;
-        transform: translate(-10%, -15%);
     }    
 
     #customers{
@@ -538,24 +549,20 @@ animation: bounce 1s ease infinite .7s;
     }
 
     .left-button{
-        left: 5%;
-        width: 120;
+        width: max-content;
         height: 60;
         font-size: 80%;
-        transform: translate(0%, -200%);
-        top: 135%;
     }
     .right-button{
-        right: 5%;
-        width: 120;
+        width: max-content;
         height: 60;
         font-size: 80%;
-        transform: translate(0%, -200%);
-        top: 135%;
     }
     
     .button_position{
-        margin: 50 auto;
+        left: 0;
+        flex-direction: row;
+        display: flex;
     }
 
     .title_containment{

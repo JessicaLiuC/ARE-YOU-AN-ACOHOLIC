@@ -2,7 +2,7 @@ let cocktail;
 function displayItem(item) {
     document.getElementById("result").innerHTML = `
 
-    <div class="card">
+    
         <div class="container">
             
             
@@ -49,7 +49,9 @@ function displayItem(item) {
             </table>
         </div>
         
-    </div>`;
+        
+        
+    `;
   
 }
 
@@ -126,9 +128,10 @@ async function loadPage() {
             wrongText = data.Cocktail[index-1].name
         }
         
+        assignCorrectRandomly();
         displayItem(item);
         
-        assignCorrectRandomly();
+        
     })
 }
 
