@@ -70,7 +70,7 @@ renderer.render(scene, camera)
 
 function animate(time) {
     requestAnimationFrame(animate)
-    var delta = (time - previousTime)/500;
+    var delta = (time - previousTime)/800;
     mixer.update(delta);
     previousTime = time;
     renderer.render(scene, camera);
@@ -79,6 +79,8 @@ function animate(time) {
 
 const audio = document.getElementById("music");
 const btn = document.getElementById("stopBtn");
+audio.autoplay = true; 
+audio.load();
 
 let isMuted = false;
 
