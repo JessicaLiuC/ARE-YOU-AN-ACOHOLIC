@@ -538,24 +538,24 @@ animation: bounce 1s ease infinite .7s;
     }
 
     .left-button{
-        position:relative;
-        left: -10%;
-        width: 120;
-        height: 60;
-        font-size: 80%;
-        transform: translate(0%, -200%);
-    }
-    .right-button{
-        position: relative;
         left: 5%;
         width: 120;
         height: 60;
         font-size: 80%;
         transform: translate(0%, -200%);
+        top: 135%;
+    }
+    .right-button{
+        right: 5%;
+        width: 120;
+        height: 60;
+        font-size: 80%;
+        transform: translate(0%, -200%);
+        top: 135%;
     }
     
     .button_position{
-        margin: 10 auto;
+        margin: 50 auto;
     }
 
     .title_containment{
@@ -611,7 +611,7 @@ animation: bounce 1s ease infinite .7s;
         left: 10%;
         width: 130;
         height: 60;
-        font-size: 150%;
+        font-size: 100%;
     }
 
     .final-right-button-correct{
@@ -619,7 +619,7 @@ animation: bounce 1s ease infinite .7s;
         left: 53%;
         width: 130;
         height: 60;
-        font-size: 150%;
+        font-size: 100%;
     }
 
     .final-right-button{
@@ -627,7 +627,7 @@ animation: bounce 1s ease infinite .7s;
         left: 53%;
         width: 130;
         height: 60;
-        font-size: 150%;
+        font-size: 100%;
     }
 
     .final-left-button{
@@ -635,6 +635,6 @@ animation: bounce 1s ease infinite .7s;
         left: 10%;
         width: 130;
         height: 60;
-        font-size: 150%;
+        font-size: 100%;
     }
 }
