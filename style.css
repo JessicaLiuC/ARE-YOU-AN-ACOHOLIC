@@ -350,24 +350,20 @@ animation: bounce 1s ease infinite .7s;
     margin: 1rem;
     flex: 1;
     position:relative;
-    left: 25%;
+    left: 20%;
 }
 
 .left-button{
-    /* position: absolute;
-    top: 80%;
-    left: 30%; */
-    width: max-content;
-    height: 95;
+    width: 250;
+    height: 100;
     color: #823D32;
     background-color: #E3CFB4;
     text-align: center;
-    font-size: 200%;
+    font-size: 180%;
     font-family: 'Laila', serif;
     border: 0;
     border-radius: 30px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    padding:1rem;
     margin:1rem;
 }
 .left-button:hover {
@@ -375,20 +371,16 @@ animation: bounce 1s ease infinite .7s;
 }
 
 .right-button{
-    /* position: absolute;
-    top: 80%;
-    left: 55%; */
-    width: max-content;
-    height: 95;
+    width: 250;
+    height: 100;
     color: #823D32;
     background-color: #E3CFB4;
     text-align: center;
-    font-size: 200%;
+    font-size: 180%;
     font-family: 'Laila', serif;
     border: 0;
     border-radius: 30px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    padding:1rem;
     margin:1rem;
 }
 .right-button:hover {
@@ -549,12 +541,12 @@ animation: bounce 1s ease infinite .7s;
     }
 
     .left-button{
-        width: max-content;
+        width: 100;
         height: 60;
         font-size: 80%;
     }
     .right-button{
-        width: max-content;
+        width: 100;
         height: 60;
         font-size: 80%;
     }
@@ -563,6 +555,8 @@ animation: bounce 1s ease infinite .7s;
         left: 0;
         flex-direction: row;
         display: flex;
+        padding: 0;
+        margin: 0;
     }
 
     .title_containment{
