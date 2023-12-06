@@ -18,7 +18,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Laila&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 
-
    
 </head>
 <body>
@@ -30,10 +29,10 @@
     </div>
 
     <div id="root"></div>
-    <button class="cancel-button" onclick="self.close();">Nah, I'm not</button>  
+    <button class="cancel-button" onclick=window.close()>Nah, I'm not</button>  
     <button class="play-button" onclick="window.location.href = 'play_page.html'">Let's see</button> 
 
-    <audio id="music" loop autoplay>
+    <audio id="music" loop autoplay preload>
         <source src="static/index.mp3" type="audio/mpeg">
         <!-- credited: 
             Wallpaper by Kevin MacLeod | https://incompetech.com/
@@ -44,7 +43,7 @@
     </audio>
     
     <div class="sound">
-        <button id="stopBtn">🔈</button>
+        <button id="stopBtn">🔇</button>
     </div>  
     
 

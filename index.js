@@ -79,10 +79,8 @@ function animate(time) {
 
 const audio = document.getElementById("music");
 const btn = document.getElementById("stopBtn");
-audio.autoplay = true; 
-audio.load();
 
-let isMuted = false;
+let isMuted = true;
 
 btn.addEventListener("click", () => {
   if(!isMuted) {
@@ -105,4 +103,4 @@ function tick() {
   
   }
   
-  tick();
+tick();
