@@ -70,8 +70,8 @@ renderer.render(scene, camera)
 
 function animate(time) {
     requestAnimationFrame(animate)
-    var delta = time - previousTime;
-    mixer.update(delta*4);
+    var delta = (time - previousTime)/1000;
+    mixer.update(delta);
     previousTime = time;
     renderer.render(scene, camera);
 }
@@ -95,4 +95,12 @@ btn.addEventListener("click", () => {
     };
 });
 
-animate()
+function tick() {
+
+    const time = performance.now();
+  
+    animate(time);
+  
+  }
+  
+  tick();
